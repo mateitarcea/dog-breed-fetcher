@@ -40,6 +40,6 @@ public class DogApiBreedFetcher implements BreedFetcher {
         }catch (IOException | JSONException | NullPointerException e) {
             throw new BreedNotFoundException(breed);
         }
-        return  subBreedsList;
+        return subBreedsList;
     }
 }
